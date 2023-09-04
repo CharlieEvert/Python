@@ -43,7 +43,7 @@ def create_query_string(query):
     return sql_query  
   
 # Set up OpenAI API  
-openai.api_key = '34c44fc2f72b45eab5cd1c5325cc8bc1'  
+openai.api_key = key  
   
 # Load CSV file into a DataFrame  
 df = pd.read_csv('/Users/cevert/Desktop/ai_projects/aprs/aprs.csv')  
