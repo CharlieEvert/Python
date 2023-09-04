@@ -11,7 +11,7 @@ import math
 import openai
 
 # Set up OpenAI API  
-openai.api_key = '34c44fc2f72b45eab5cd1c5325cc8bc1'  
+openai.api_key = API_KEY
   
 def split_string(string, tokens, tokens_per_split):  
     num_splits = math.ceil(tokens / tokens_per_split) - 1  
